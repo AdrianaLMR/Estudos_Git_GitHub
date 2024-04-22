@@ -23,7 +23,19 @@ Existem dois tipos principais de merge:
 
 ## Boas Práticas:
 
-Algumas boas práticas ao fazer merge incluem:
-- Realizar merge frequentemente para manter o código integrado e evitar grandes divergências.
-- Revisar cuidadosamente as alterações antes de mesclar para evitar conflitos e garantir a qualidade do código.
-- Resolver quaisquer conflitos de merge de forma rápida e eficiente para manter o fluxo de trabalho contínuo.
+- Revisão de Código: Antes de realizar o merge, é recomendável revisar cuidadosamente as alterações propostas. Isso pode ser feito através de revisões de código por pares para garantir a qualidade e a conformidade com os padrões do projeto.
+
+- Testes Automatizados: Certifique-se de que todas as alterações propostas foram devidamente testadas e que os testes automatizados passaram com sucesso. Isso ajuda a identificar possíveis regressões ou problemas antes de integrar as alterações no código principal.
+
+- Manter o Histórico Limpo: Evite mesclar commits desnecessários ou confusos. Se necessário, reescreva a história do commit para torná-la mais clara e compreensível. Commits pequenos e focados são mais fáceis de revisar e entender.
+
+- Resolva Conflitos Antes do Merge: Se houver conflitos durante o merge, resolva-os antes de finalizar o processo. É importante garantir que as alterações sejam integradas de forma consistente e que não haja perda de dados.
+
+- Comunique Alterações Significativas: Se as alterações propostas forem significativas ou impactarem outras partes do projeto, comunique-as adequadamente aos membros da equipe. Isso pode incluir atualizações na documentação, anúncios em canais de comunicação interna, ou qualquer outra forma de comunicação apropriada.
+
+- Mantenha o Código Limpo e Organizado: Antes de realizar o merge, certifique-se de que o código esteja limpo, bem organizado e aderente aos padrões de codificação do projeto. Isso facilita a manutenção futura e melhora a legibilidade do código.
+
+- Faça Backup do Código Existente: Antes de realizar alterações significativas ou arriscadas, faça um backup do código existente ou crie uma branch separada para realizar os experimentos. Isso ajuda a evitar perda de dados ou problemas sérios caso algo dê errado.
+
+- Comentários Significativos: Ao realizar o merge, inclua comentários significativos que descrevam as alterações realizadas e o motivo do merge. Isso ajuda a manter um registro claro do histórico de alterações e facilita a compreensão do código por outros membros da equipe.
+
